@@ -1,4 +1,4 @@
-import { SignUp } from "@clerk/nextjs";
+import { SignUp } from '@clerk/nextjs';
 
 export default function Page() {
   return (
@@ -7,3 +7,4 @@ export default function Page() {
     </div>
   );
 }
+export const dynamic = 'force-dynamic';
